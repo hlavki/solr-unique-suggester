@@ -12,6 +12,7 @@ where every letter defines one of value files:
 * W - weight field value
 
 For example if `idValuePattern` value is defined as `TC` then key consists from values of term field and context field.
+Default vaule is `T`.
 
 Value of key is concatenated, hashed by murmur3 algorithm and then stored to index.
 
