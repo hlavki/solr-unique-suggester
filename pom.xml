@@ -14,7 +14,6 @@
         <solr.version>8.4.1</solr.version>
     </properties>
 
-
     <dependencies>
         <dependency>
             <groupId>org.apache.solr</groupId>
