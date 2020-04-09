@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+
+    <luceneMatchVersion>8.4.1</luceneMatchVersion>
+
+    <dataDir>${solr.data.dir:}</dataDir>
+
+    <directoryFactory name="DirectoryFactory" class="${solr.directoryFactory:solr.NRTCachingDirectoryFactory}"/>
+
+    <updateHandler class="solr.DirectUpdateHandler2">
+        <commitWithin>
+            <softCommit>${solr.commitwithin.softcommit:true}</softCommit>
+        </commitWithin>
+        <updateLog class="${solr.ulog:solr.UpdateLog}"></updateLog>
+
+        <autoCommit>
+            <maxDocs>${solr.autoCommit.maxDocs:100}</maxDocs>
+            <maxTime>${solr.autoCommit.maxTime:60000}</maxTime>
+            <openSearcher>true</openSearcher>
+        </autoCommit>
+
+        <autoSoftCommit>
+            <maxTime>${solr.autoSoftCommit.maxTime:5000}</maxTime>
+        </autoSoftCommit>
+    </updateHandler>
+
+    <requestHandler name="/select" class="solr.SearchHandler">
+        <lst name="defaults">
+            <str name="echoParams">explicit</str>
+            <int name="rows">10</int>
+        </lst>
+    </requestHandler>
+
+    <!-- Suggester -->
+    <searchComponent name="suggest-name-id" class="solr.SuggestComponent">
+        <lst name="suggester">
+            <str name="name">UniqueAnalyzingInfixSuggester</str>
+            <str name="lookupImpl">eu.hlavki.solr.suggester.UniqueAnalyzingInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">name</str>
+            <str name="payloadField">identifier</str>
+            <str name="contextField">type</str>
+            <str name="idValuePattern">TP</str>
+            <str name="suggestAnalyzerFieldType">suggest_text</str>
+            <str name="allTermsRequired">false</str>
+            <str name="exactMatchFirst">true</str>
+            <int name="minPrefixChars">3</int>
+            <str name="highlight">false</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">true</str>
+        </lst>
+    </searchComponent>
+    <requestHandler name="/suggest/name-id" class="solr.SearchHandler">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.dictionary">UniqueAnalyzingInfixSuggester</str>
+            <int name="suggest.count">5</int>
+            <str name="wt">json</str>
+        </lst>
+        <arr name="components">
+            <str>suggest-name-id</str>
+        </arr>
+    </requestHandler>
+</config>

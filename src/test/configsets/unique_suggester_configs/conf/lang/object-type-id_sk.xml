@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one or more
+ contributor license agreements.  See the NOTICE file distributed with
+ this work for additional information regarding copyright ownership.
+ The ASF licenses this file to You under the Apache License, Version 2.0
+ (the "License"); you may not use this file except in compliance with
+ the License.  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+<localize version="1.0">
+    <map value="SKFSCGOV@103.510:IncomingSK">Doručený záznam (vonkajší)</map>
+    <map value="SKFSCGOV@103.510:SettlementSK">Odoslaný záznam (vonkajší)</map>
+    <map value="SKPRECONFIGSK@103.510:InternalLetterOutgoing">Odoslaný záznam (vnútorný)</map>
+    <map value="SKPRECONFIGSK@103.510:InternalLetterIncoming">Doručený záznam (vnútorný)</map>
+    <map value="SKPRECONFIGSK@103.510:SettlementCombinedSK">Odoslaný záznam (kombinovaný)</map>
+    <map value="SKFSCGOV@103.510:InternalFileSK">Záznam pre spis</map>
+    <map value="SKFSCGOV@103.510:SubjectAreaFileSK">Spis (bežný)</map>
+    <map value="COOMSOFFICE@1.1:ExcelObject">XLS dokument</map>
+    <map value="COOMSOFFICE@1.1:WinWordObject">Word dokument</map>
+    <map value="COOMSOFFICE@1.1:PowerPointObject">Powerpoint</map>
+    <map value="FSCOOFFICE@1.1001:OOorgTextObject">Open Word</map>
+    <map value="FSCOOFFICE@1.1001:OOorgCalcObject">Open Excel</map>
+    <map value="FSCACROBAT@1.1:PDFObject">PDF dokument</map>
+    <map value="XMLDocument">XML dokument</map>
+    <map value="HTMLDocument">HTML dokument</map>
+    <map value="TXTDocument">Textový dokument</map>
+    <map value="RTFDocument">RTF dokument</map>
+    <map value="NOTE@1.1:NoteObject">Poznámka</map>
+    <map value="COOSYSTEM@1.1:User">Používateľ</map>
+</localize>

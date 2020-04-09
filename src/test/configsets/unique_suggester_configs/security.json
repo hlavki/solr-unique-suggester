@@ -1,0 +1,17 @@
+{
+    "authentication": {
+        "class": "camp.xit.solr.security.ProxyAuthPlugin",
+        "authzInfo": {
+            "cacheExpirationTimeout": 60,
+            "providers": [
+                {
+                    "class": "camp.xit.solr.security.authz.fabasoft.FabasoftAuthzInfoProvider",
+                    "sourcePrefix": "fabasoft_",
+                    "fabasoftHost": "${fabasoftHost:}",
+                    "fabasoftUsername": "${fabasoftUsername:}",
+                    "fabasoftPassword": "${fabasoftPassword:}"
+                }
+            ]
+        }
+    }
+}

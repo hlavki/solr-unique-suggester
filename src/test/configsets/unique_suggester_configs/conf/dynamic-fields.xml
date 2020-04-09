@@ -1,0 +1,118 @@
+<?xml version="1.0" ?>
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one or more
+ contributor license agreements.  See the NOTICE file distributed with
+ this work for additional information regarding copyright ownership.
+ The ASF licenses this file to You under the Apache License, Version 2.0
+ (the "License"); you may not use this file except in compliance with
+ the License.  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<dynamic-fields fieldName="objectTypeId" version="1.0">
+    <field value="SKFSCGOV@103.510:IncomingSK">
+        name,iconRef,createdBy,creationDate,referrednumber,fileresponsible,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="SKFSCGOV@103.510:SettlementSK">
+        name,iconRef,createdBy,creationDate,subject,referrednumber,fileresponsible,sendersign,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="SKPRECONFIGSK@103.510:InternalLetterOutgoing">
+        name,iconRef,createdBy,creationDate,subject,referrednumber,fileresponsible,sendersign,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="SKPRECONFIGSK@103.510:InternalLetterIncoming">
+        name,iconRef,createdBy,creationDate,subject,referrednumber,fileresponsible,sendersign,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="SKFSCGOV@103.510:InternalFileSK">
+        name,iconRef,createdBy,creationDate,subject,referrednumber,fileresponsible,sendersign,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="SKFSCGOV@103.510:SubjectAreaFileSK">
+        name,iconRef,createdBy,creationDate,fileresponsible,sendersign,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="SKCP@103.500:ClassCPTCestaPlan">
+        allText,iconRef,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="SKCP@103.500:ClassCPTVyuctDen">
+        allText,iconRef,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="SKDOVUI@103.500:ClassDovolenkaUI">
+        leaveApplicant,iconRef,leaveApprover,leaveState,leaveYear,leaveFrom,leaveTo,leaveDays,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="COOMSOFFICE@1.1:ExcelObject">
+        name,iconRef,createdBy,creationDate,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="COOMSOFFICE@1.1:WinWordObject">
+        name,iconRef,createdBy,creationDate,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="FSCACROBAT@1.1:PDFObject">
+        name,iconRef,createdBy,creationDate,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="SKXML@103.510:ClassXMLTemplateUniForm1">
+        name,iconRef,createdBy,creationDate,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="SKDELIVERY@103.510:ClassPostovyPodaciHarok">
+        name,iconRef,createdBy,creationDate,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="FSCWEBCONT@1.1001:TIFFObject">
+        name,iconRef,createdBy,creationDate,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="SKCPUI@103.500:ClassCPTBB">
+        name,iconRef,createdBy,creationDate,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="COOSYSTEM@1.1:User">
+        name,iconRef,createdBy,creationDate,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="SKPRECONFIGSK@103.510:SettlementCombinedSK">
+        name,iconRef,createdBy,creationDate,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="SKFSCGOV@103.510:AggregatedFileSK">
+        name,iconRef,createdBy,creationDate,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="GENCONT@1.1:ContentObject">
+        objname,iconRef,createdBy,creationDate,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="SKXML@103.510:ClassXMLDokument">
+        objname,iconRef,createdBy,creationDate,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="COOSCR@1.1001:ScriptObject">
+        objname,iconRef,createdBy,creationDate,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="SKFSCGOV@103.510:PersonalFileSK">
+        objname,iconRef,createdBy,creationDate,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="SKESIGN@103.510:ClassCertificateCA">
+        objname,iconRef,createdBy,creationDate,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="SKESIGN@103.510:ClassCRL">
+        objname,iconRef,createdBy,creationDate,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="SKPRECONFIGSK@103.510:ClassWordNotice">
+        objname,iconRef,createdBy,creationDate,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="SKXML@103.510:ClassXMLUniversalForm1">
+        objname,iconRef,createdBy,creationDate,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="VISIO@1.1:VisioObject">
+        objname,iconRef,createdBy,creationDate,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="COOMAPI@1.1:MailObject">
+        objname,iconRef,createdBy,creationDate,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="COOMAPI@1.1:OutlookDataFileObject">
+        objname,iconRef,createdBy,creationDate,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="COOMSOFFICE@1.1:PowerPointObject">
+        objname,iconRef,createdBy,creationDate,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="SKPRECONFIGSK@103.510:ClassFileCircuit">
+        objname,iconRef,createdBy,creationDate,documentId,sourceId,documentLink,documentIconLink
+    </field>
+    <field value="cmis:document">
+        creationDate,iconRef,createdBy,documentId,sourceId,documentLink,documentIconLink
+    </field>
+</dynamic-fields>
