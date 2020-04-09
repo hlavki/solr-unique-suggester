@@ -6,10 +6,10 @@ Map is stored to index in the similar way as values in AnalyzingInfixSuggester.
 
 Configuration attribute `idValuePattern` contains pattern which defines unique key of suggested value. It consists of 4 letters
 where every letter defines one of value files:
-* T - term field value
-* P - payload field value
-* C - context field value (valid only if contexts field contains single value)
-* W - weight field value
+* **T** - term field value
+* **P** - payload field value
+* **C** - context field value (valid only if contexts field contains single value)
+* **W** - weight field value
 
 For example if `idValuePattern` value is defined as `TC` then key consists from values of term field and context field.
 Default vaule is `T`.
