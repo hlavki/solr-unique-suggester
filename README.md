@@ -1,7 +1,8 @@
 # Unique Analyzing Infix Suggester
 
 Suggester based on AnalyzingInfixSuggester deduplicates data on index time.
-To handle uniqueness of value it uses key value map, where key is defined by `idValuePattern` configuration attribute.
+To handle uniqueness of value it uses key-value map, where key is defined by `idValuePattern` configuration attribute.
+Map is stored to index in the similar way as values in AnalyzingInfixSuggester.
 
 Configuration attribute `idValuePattern` contains pattern which defines unique key of suggested value. It consists of 4 letters
 where every letter defines one of value files:
