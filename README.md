@@ -12,6 +12,8 @@ where every letter defines one of value files:
 
 For example if `idValuePattern` value is defined as `TC` then key consists from values of term field and context field.
 
+Value of key is concatenated, hashed by murmur3 algorithm and then stored to index.
+
 Example of usage:
 
 For example you have multiple organizations with employees and you want to suggest names per organization:
