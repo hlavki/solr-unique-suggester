@@ -18,7 +18,8 @@ Value of key is concatenated, hashed by murmur3 algorithm and then stored to ind
 
 Example of usage:
 
-For example you have multiple organizations with employees and you want to suggest names per organization:
+For example you have phone calls list of employees from multiple organizations and you want to suggest employee name per organization.
+Suppose that there is are more than one calls for every employee:
 
 ```xml
 <searchComponent name="suggest-employee-name" class="solr.SuggestComponent">
