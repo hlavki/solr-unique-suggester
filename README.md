@@ -16,6 +16,10 @@ Default vaule is `T`.
 
 Value of key is concatenated, hashed by murmur3 algorithm and then stored to index.
 
+### Note!
+
+I didn't test it on SolrCloud with multiple shards, but I think it won't work!
+
 **Example of usage:**
 
 For example you have phone calls list of employees from multiple organizations and you want to suggest employee name per organization.
